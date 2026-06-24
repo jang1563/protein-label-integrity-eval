@@ -6,7 +6,7 @@ This evaluation has two arms with deliberately different reproduction stories.
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
-python -m pip install -r requirements.txt   # anthropic >= 0.64.0, scipy >= 1.11.0
+python -m pip install -r requirements.txt   # anthropic >= 0.64.0
 ```
 
 Python 3.11 is recommended. Live collection reads `ANTHROPIC_API_KEY` from the
