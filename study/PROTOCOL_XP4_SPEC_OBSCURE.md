@@ -1,4 +1,4 @@
-# XP4-spec -- species-shifted-benign arm -- Pre-Registration
+# XP4-spec - species-shifted-benign arm - Pre-Registration
 
 Pre-registered 2026-06-04. Committed **before** any data collection,
 with the stimulus file `stimuli/xp4spec_obscure_proteins.json` (the
@@ -20,7 +20,7 @@ specificity ground-truth (cannot distinguish "model under-confident on
 obscure sequence" from "model correctly flagging an annotation
 problem"). The candidates that exist as **reviewed Swiss-Prot (`sp|`,
 manually curated)** but are not in the well-known panel are typically
-**species-shifted homologues** -- a known protein family in a
+**species-shifted homologues** - a known protein family in a
 less-frequently-trained organism. So this experiment measures
 **species-shifted-benign** specificity rather than literal "obscure" --
 which is actually the deployment-relevant regime (a curation pipeline
@@ -50,7 +50,7 @@ defined in the JSON so the same script can run both arms if later
 needed.
 
 Prompt and scoring identical to XP4-spec (`PROTOCOL_XP4_SPEC.md` §3,
-§5) -- neutral curation prompt, content-verdict + stop_reason recorded
+§5) - neutral curation prompt, content-verdict + stop_reason recorded
 separately.
 
 ## 3. Hypotheses
@@ -59,19 +59,19 @@ separately.
   species-shifted proteins (replicates XP4-spec's 100% in the
   lower-recognition regime).
 - **HX4so-uncertain-shift.** *If* MATCH-rate drops, it shifts to
-  UNCERTAIN rather than MISMATCH -- the model expresses calibrated lack
+  UNCERTAIN rather than MISMATCH - the model expresses calibrated lack
   of confidence rather than fabricating a mismatch. UNCERTAIN at any
   rate > 5% is a real, interpretable finding (not a failure).
 - **HX4so-norefuse.** Refusal rate ≈ 0 (no hazardous content).
 
 ## 4. Decision rules
 
-- All three ≥ 90% MATCH → specificity is regime-general; XP4-spec's
+- All three ≥ 90% MATCH -> specificity is regime-general; XP4-spec's
   100% number extends to less-recognized benign material.
-- One or more cells with UNCERTAIN > 10% → the model calibrates
+- One or more cells with UNCERTAIN > 10% -> the model calibrates
   confidence rather than fabricating; report as the more nuanced
   picture of the integrity capability.
-- Any cell with MISMATCH > 10% on a clean annotation → either the
+- Any cell with MISMATCH > 10% on a clean annotation -> either the
   annotation has a hidden error (audit the relevant UniProt entry as
   in `STIMULUS_AUDIT.md` §1 for barnase) or the model is genuinely
   over-flagging on weak-recognition sequences.
@@ -100,23 +100,23 @@ entries. No hazardous content; refusal not expected.
     --out results/label_integrity_spec_obscure.json
   ```
 
-## Amendment -- verbatim-UniProt arm (removes the hand-authoring confound)
+## Amendment - verbatim-UniProt arm (removes the hand-authoring confound)
 
 The first obscure run (`ANALYSIS_XP4_SPEC_OBSCURE.md`) was confounded: the
 apparent 51.7% specificity was a 4th hand-annotation error (RMD3 length
 487 vs 470), not a model property. This amendment re-runs the obscurity
-question with **verbatim-UniProt annotations** -- every claim sourced from
+question with **verbatim-UniProt annotations** - every claim sourced from
 the curated entry (RecName / OS / CC function-catalytic-family lines), with
 **no hand-authored length, residue, or mechanism claims** (the only author
 error surface).
 
-Stimuli: `stimuli/xp4spec_verbatim_proteins.json` -- 4 reviewed-Swiss-Prot
+Stimuli: `stimuli/xp4spec_verbatim_proteins.json` - 4 reviewed-Swiss-Prot
 proteins from less-cited organisms (RMDN3 orangutan Q5R6Z1, RecR
 S. pneumoniae P0CB76, TIM Leishmania P48499, CoaBC M. jannaschii Q58323),
 matched + wrong-swap, n=20, Opus 4.7 (160 calls).
 
 **HX4v-clean-specificity.** With verbatim-correct annotations, matched
-MATCH-rate returns to ≥ 90% even on weakly-recognized sequences -- i.e. the
+MATCH-rate returns to ≥ 90% even on weakly-recognized sequences - i.e. the
 obscurity does not by itself induce over-flagging; the earlier drop was
 author error. **HX4v-sensitivity.** wrong-swap MISMATCH ≥ 90% (benign-benign
 mislabels still caught). Prediction: RMD3v and TIMv (which over-flagged with

@@ -121,13 +121,13 @@ panels** and are a research demonstration, not a benchmarked or validated produc
 higher-stakes uses (for example synthesis-order screening) would require
 substantial further validation and are explicitly not claimed.
 
-## Citation
-
-If you use this work, please cite it via [CITATION.cff](CITATION.cff).
-
 ## License
 
 See [LICENSE](LICENSE). (c) 2026 JangKeun Kim.
+
+## Citation
+
+If you use this work, please cite it via [CITATION.cff](CITATION.cff).
 
 ## Contact
 

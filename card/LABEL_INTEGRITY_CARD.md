@@ -31,8 +31,8 @@ describes a sequence (reference model: `claude-opus-4-7`), it returns
 annotation/sequence consistency; the safety-relevant case is the
 **stress test**. On that stress test, a hazardous sequence carrying a
 benign-looking label, it flagged the mismatch on **every tested trial**
-(160/160 on Opus 4.7: 4 toxins × n=40; ≥ 99.4% across five Claude versions),
-with **100% specificity on a clean benign panel** (200/200: 5 proteins ×
+(160/160 on Opus 4.7: 4 toxins x n=40; ≥ 99.4% across five Claude versions),
+with **100% specificity on a clean benign panel** (200/200: 5 proteins x
 n=40). In **most versions (4 of 5)** the check is **finer than identity**, it also flags false biochemical claims inside an otherwise identity-correct
 annotation (an "annotation linter"). Two deployment constraints apply (§4):
 read the **content** verdict, not the API refusal flag; and a toxin-*labeled*
@@ -52,7 +52,7 @@ not a benchmarked product.
 - **Input:** a protein sequence (bare FASTA) + the stored annotation text.
   **Output:** a leading verdict token, `MATCH` / `MISMATCH` / `UNCERTAIN`, followed by a free-text rationale.
 - **Stochasticity:** results are distributions over n independent trials per
-  (model × condition × protein) cell (default sampling), not single calls.
+  (model x condition x protein) cell (default sampling), not single calls.
 
 ## 3. Intended Use
 
@@ -256,7 +256,7 @@ versions. The wrong-hazardous arm refuses 100% in all five models (§4).
   hand-authored annotations rather than model errors. Findings are stated
   only where data-verified.
 - **Manipulation budget = 0.** All annotation text is real public UniProt
-  metadata; only the (sequence ↔ annotation) pairing is manipulated. No
+  metadata; only the (sequence <-> annotation) pairing is manipulated. No
   novel hazardous content was generated.
 
 ## 11. How to Get Started
