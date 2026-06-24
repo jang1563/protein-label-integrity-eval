@@ -253,8 +253,10 @@ versions. The wrong-hazardous arm refuses 100% in all five models (§4).
 - **Adversarial self-review.** A final critical pass
   (an adversarial self-review pass) re-checked claims against the data: it
   corrected an over-counted figure in an earlier draft, and confirmed that
-  four factual errors the model had flagged were in this project's own
-  hand-authored annotations rather than model errors. Findings are stated
+  four factual errors were in this project's own hand-authored annotations
+  rather than model errors - two of them model-flagged (barnase, RMD3), two
+  found by desk audit (the ricin and BoNT panel annotations, whose toxin cells
+  refused before the model could be tested on them). Findings are stated
   only where data-verified.
 - **Manipulation budget = 0.** All annotation text is real public UniProt
   metadata; only the (sequence <-> annotation) pairing is manipulated. No

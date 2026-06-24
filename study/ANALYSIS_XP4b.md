@@ -166,14 +166,14 @@ The deployable label-integrity capability:
 ## 7. Limitations
 
 - The barnase result is uniquely informative because the stimulus had
-  *exactly two* fixable factual errors. The 5/4 vs 1/5 Opus-4.6 split
+  *exactly two* fixable factual errors. The 4/5 vs 1/5 Opus-4.6 split
   could be specific to this particular type of error (mechanism +
   residue identity); a panel of varied annotation-error types would
   characterize Opus 4.6's identity-only check more sharply.
-- The XP4-spec **obscure-benign arm** remains open (`OPEN_FOLLOWUPS.md`
-  §1): all five XP4-spec benign proteins were well-recognized, so
-  specificity under low-recognition is not characterized for any model
-  in the family.
+- The XP4-spec **obscure-benign arm** (specificity under weaker recognition)
+  was subsequently run - see `ANALYSIS_XP4_SPEC_OBSCURE.md` (obscured-name
+  51.7%, verbatim 78.7% specificity on less-recognized proteins), which
+  characterizes what the well-recognized canonical panel could not.
 - Sonnet 4.5's 0% refusal-tagging is striking but specific to *this*
   task (curation prompt + benign decoy annotation). Whether other
   hazard-naming prompts on Sonnet 4.5 are also unrefused is not tested
