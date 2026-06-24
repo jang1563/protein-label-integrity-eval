@@ -87,14 +87,14 @@ about the protein are actually correct. The other four models all catch
 the false mechanism / residue claims and return MISMATCH with explicit
 reasoning.
 
-This is a real cross-model capability difference and a clean finding --
+This is a real cross-model capability difference and a clean finding -
 not a calibration gap (Opus 4.6's identity-only check is a valid
 "matched" verdict for the task as literally posed), but it means the
 *resolution* of the label-integrity check varies by model. A pipeline
 that needs **annotation-content** verification (not just identity
 matching) cannot rely on Opus 4.6.
 
-The 1A2P stimulus-bug audit (`STIMULUS_AUDIT.md` §1) was an unplanned
+The 1A2P stimulus-bug audit (the companion stimulus audit §1) was an unplanned
 discovery; XP4b turns it into a **deliberate cross-model probe of
 integrity-check resolution**. Without the bug, the 4/5 vs 1/5 split would
 not have been visible.
@@ -139,7 +139,7 @@ sequence, masked when it is in the label" is **model-general**.
   toxin sequence is not the limiting factor.
 - **HX4b-refusal-tracks-recognition** - **strongly supported** (monotone
   0% -> 84% across the XP3b capability ordering).
-- **HX4b-specificity (barnase matched as positive control)** --
+- **HX4b-specificity (barnase matched as positive control)** -
   **supported with one informative exception**. 4/5 models reproduce the
   finer-than-identity MISMATCH on the buggy annotation; Opus 4.6 alone
   is identity-only.

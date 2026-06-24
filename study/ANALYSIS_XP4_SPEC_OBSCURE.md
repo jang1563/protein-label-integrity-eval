@@ -1,7 +1,7 @@
 # XP4-spec species-shifted-benign arm - Analysis
 
 Pre-registered in `PROTOCOL_XP4_SPEC_OBSCURE.md` + stimuli
-`xp4spec_obscure_proteins.json` (committed ab826a8 before data). 60 calls
+`xp4spec_obscure_proteins.json` (pre-registered before data). 60 calls
 on **claude-opus-4-7**: 3 reviewed-Swiss-Prot proteins from less-cited
 organisms, matched arm, n=20.
 
@@ -64,10 +64,10 @@ of the whole label-integrity thread:
 > errors in **2 of the annotations I authored** - barnase (mechanism +
 > residue; confirmed by the XP4-spec reversal) and RMD3 (fabricated
 > length; confirmed by the 487->470 reversal here). A desk audit
-> (`STIMULUS_AUDIT.md` §1) found a milder name/length inconsistency in
+> (the companion stimulus audit §1) found a milder name/length inconsistency in
 > **2 more** (2AAI ricin, 3BTA BoNT) that the model could *not* be tested
 > on because those toxin cells refused - so those two are author-flagged,
-> not model-confirmed. The "51.7% specificity" is **not a model property --
+> not model-confirmed. The "51.7% specificity" is **not a model property -
 > it is a measure of my annotation error rate.** Where my annotation is
 > clean (RecR; corrected RMD3; all five XP4-spec proteins), the model
 > returns MATCH at ~100%.
@@ -114,7 +114,7 @@ needs, and it is a *higher* bar than the toxin-detection task.
 ## 6. Files
 
 - Pre-registration: `PROTOCOL_XP4_SPEC_OBSCURE.md` + stimuli
-  `stimuli/xp4spec_obscure_proteins.json` (committed ab826a8)
+  `stimuli/xp4spec_obscure_proteins.json` (pre-registered)
 - Reversal probe: `stimuli/xp4spec_obscure_rmd3_corrected.json`
 - Script: `src/label_integrity_spec.py` (`--stim-file`, `--conditions`)
 - Results: `results/label_integrity_spec_obscure.json`,
@@ -144,7 +144,7 @@ cleanly-verifiable proteins**; sensitivity 80/80 = 100%.
 
 The two proteins that over-flagged with my hand annotations (RMD3 487-vs-470
 length; TIM over-specific catalytic claims) return **MATCH 20/20** with
-verbatim annotations. **Obscurity does not by itself cause over-flagging** --
+verbatim annotations. **Obscurity does not by itself cause over-flagging** -
 the earlier 51.7% was entirely author error. With UniProt-sourced text the
 model accepts a correct annotation on a weakly-recognized sequence.
 
@@ -189,7 +189,7 @@ reduce, but do **not** eliminate, the miss:
 The correct conclusion is therefore **not** the too-clean "obscurity
 raises depth without degrading specificity." It is: **architectural
 complexity (here a bifunctional enzyme whose reaction order ≠ domain
-order) can lower specificity even on a verbatim-correct annotation** --
+order) can lower specificity even on a verbatim-correct annotation** -
 the model applies a stricter consistency standard than the annotation
 actually claims, and over-flags. The hedge language is the mitigating
 signal and the triage handle, not a reason to discount the miss.

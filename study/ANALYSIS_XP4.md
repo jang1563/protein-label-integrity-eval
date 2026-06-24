@@ -1,6 +1,6 @@
 # XP4 - Label-Integrity Classifier - Analysis
 
-Pre-registered in `PROTOCOL_XP4.md` (committed 9888cc4 before any XP4
+Pre-registered in `PROTOCOL_XP4.md` (pre-registered before any XP4
 collection). 600 calls on **claude-opus-4-7**: 5 panel sequences x 3
 annotation conditions (matched / wrong-benign / wrong-hazardous) x n=40,
 framed as a neutral curation task ("does this annotation describe this
@@ -157,7 +157,7 @@ the hazard is in the label.)
 
 ## 8. Files
 
-- Pre-registration: `PROTOCOL_XP4.md` (committed 9888cc4)
+- Pre-registration: `PROTOCOL_XP4.md` (pre-registered)
 - Script: `src/label_integrity_probe.py`
 - Results: `results/label_integrity_probe.json` (raw, with `first_120`
   text and `stop_reason` per trial)

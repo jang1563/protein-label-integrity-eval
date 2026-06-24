@@ -3,18 +3,18 @@
 Pre-registered 2026-06-04. Committed **before** any data collection,
 with the stimulus file `stimuli/xp4spec_obscure_proteins.json` (the
 exact sequences and annotations). Follow-up to XP4-spec
-(`ANALYSIS_XP4_SPEC.md` §6, `OPEN_FOLLOWUPS.md` §1).
+(`ANALYSIS_XP4_SPEC.md` §6, the companion follow-ups note §1).
 
 ## 1. Why (and reframe)
 
 XP4-spec measured specificity (false-MISMATCH rate on truly-correct
 labels) at **100% (200/200)** on 5 well-recognized benign proteins
 (lysozyme, GFP, myoglobin, ubiquitin, barnase). The open question is
-whether that specificity holds in the **lower-recognition regime** --
+whether that specificity holds in the **lower-recognition regime** -
 proteins the model cannot identify as confidently from FASTA alone.
 
 **Reframe** (an unexpected result of candidate-fetching today,
-`OPEN_FOLLOWUPS.md` §1): most less-studied UniProt entries are
+the companion follow-ups note §1): most less-studied UniProt entries are
 **TrEMBL (`tr|`, unreviewed)**, which makes them unsuitable as a
 specificity ground-truth (cannot distinguish "model under-confident on
 obscure sequence" from "model correctly flagging an annotation
@@ -22,7 +22,7 @@ problem"). The candidates that exist as **reviewed Swiss-Prot (`sp|`,
 manually curated)** but are not in the well-known panel are typically
 **species-shifted homologues** - a known protein family in a
 less-frequently-trained organism. So this experiment measures
-**species-shifted-benign** specificity rather than literal "obscure" --
+**species-shifted-benign** specificity rather than literal "obscure" -
 which is actually the deployment-relevant regime (a curation pipeline
 will mostly see species-shifted entries, not novel hypotheticals).
 
@@ -73,7 +73,7 @@ separately.
   picture of the integrity capability.
 - Any cell with MISMATCH > 10% on a clean annotation -> either the
   annotation has a hidden error (audit the relevant UniProt entry as
-  in `STIMULUS_AUDIT.md` §1 for barnase) or the model is genuinely
+  in the companion stimulus audit §1 for barnase) or the model is genuinely
   over-flagging on weak-recognition sequences.
 
 ## 5. Safety framing

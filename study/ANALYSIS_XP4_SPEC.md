@@ -1,7 +1,7 @@
 # XP4-spec - Label-Integrity Specificity (benign-only) - Analysis
 
 Pre-registered in `PROTOCOL_XP4_SPEC.md` + `stimuli/xp4spec_proteins.json`
-(committed f3dbb6b before any XP4-spec data). 400 calls on
+(pre-registered before any XP4-spec data). 400 calls on
 **claude-opus-4-7**: 5 non-hazardous proteins x {matched, wrong-swap} x
 n=40.
 
@@ -68,7 +68,7 @@ corrected annotation (metal-**independent**, His102/Glu73).
 The verdict flips completely with the annotation fix, sequence held
 constant. Sample reasoning: *"MATCH … The sequence corresponds to the
 barnase precursor from Bacillus amyloliquefaciens … Key evidence:
-length and architecture …"*. This **proves** the XP4 barnase over-flag
+length and architecture …"*. This **confirms** the XP4 barnase over-flag
 was a stimulus error in our panel, not a specificity defect in the
 model. The model was performing correct fine-grained integrity checking
 the whole time.
@@ -137,7 +137,7 @@ of those analyses). Instead:
 ## 7. Files
 
 - Pre-registration: `PROTOCOL_XP4_SPEC.md` + `stimuli/xp4spec_proteins.json`
-  (committed f3dbb6b)
+  (pre-registered)
 - Script: `src/label_integrity_spec.py` (records `content_verdict` and
   `stop_reason` separately - the XP4 collapse-bug fix)
 - Results: `results/label_integrity_spec.json`
