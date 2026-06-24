@@ -67,6 +67,7 @@ a how-to-start prompt.
 |   |-- stimuli/                  the (sequence, annotation) panels (public identifiers only)
 |   `-- results/                  committed raw outputs (JSON + console logs)
 |-- docs/                         reproducibility and data documentation
+|-- data/                         Hugging Face dataset: benign-specificity trials (JSONL) + builder
 |-- CITATION.cff
 `-- LICENSE
 ```
@@ -105,6 +106,10 @@ operational hazardous content is present. The `(sequence, annotation)` panels ar
 under [study/stimuli/](study/stimuli/) and the per-trial outputs under
 [study/results/](study/results/). See [docs/DATA_CARD.md](docs/DATA_CARD.md) for
 composition and governance.
+
+A flattened, load-ready version of the benign-specificity trials is published as a
+Hugging Face dataset under [data/](data/README.md) (`label_integrity_eval.jsonl`,
+640 rows, one per model call), regenerable with `data/build_dataset.py`.
 
 ## Scope and safety
 
