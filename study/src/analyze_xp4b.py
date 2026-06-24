@@ -5,6 +5,12 @@ Re-scores BOTH the Opus 4.7 (XP4) and the 4-model (XP4b) data on
 content verdict (parsed from first_120 regardless of stop_reason),
 fixing the XP4 collapse bug where refusal-tagged correct verdicts were
 discarded. Outputs per-model confusion matrix + key headline numbers.
+
+NOTE: the inputs (results/label_integrity_probe.json and
+label_integrity_probe_xmodel.json) are the raw hazard-arm trials, which are NOT
+redistributed in the public release (see ../../docs/DATA_CARD.md). This script is
+included for methodological transparency; it runs only against the private raw
+data, not from the files shipped in this repository.
 """
 import json, re
 from pathlib import Path
