@@ -71,6 +71,12 @@ a how-to-start prompt.
 `-- LICENSE
 ```
 
+**Experiment codes.** The study files keep their original pre-registration codes:
+`XP4` is the hazard-detection probe (sensitivity), `XP4-spec` is the benign
+specificity arm, `XP4-spec-obscure` repeats the specificity arm with obscured
+protein names, and `XP4b` is the cross-model extension across the five Claude
+versions.
+
 ## Reproduce
 
 The committed result files under [study/results/](study/results/) are the
