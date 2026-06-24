@@ -1,0 +1,25 @@
+XP4-spec label-integrity specificity -- models ['claude-opus-4-7'], n=20
+==============================================================================
+  claude-opus-4-7    RMD3v matched    gt=MATCH    correct=20/20  {'MATCH': 20}  refusal_tag=0
+  claude-opus-4-7    RMD3v wrong-swap gt=MISMATCH correct=20/20  {'MISMATCH': 20}  refusal_tag=0
+  claude-opus-4-7    RECRv matched    gt=MATCH    correct=20/20  {'MATCH': 20}  refusal_tag=0
+  claude-opus-4-7    RECRv wrong-swap gt=MISMATCH correct=20/20  {'MISMATCH': 20}  refusal_tag=0
+  claude-opus-4-7    TIMv  matched    gt=MATCH    correct=20/20  {'MATCH': 20}  refusal_tag=0
+  claude-opus-4-7    TIMv  wrong-swap gt=MISMATCH correct=20/20  {'MISMATCH': 20}  refusal_tag=0
+  claude-opus-4-7    COABCv matched    gt=MATCH    correct=3/20  {'MATCH': 3, 'MISMATCH': 17}  refusal_tag=0
+  claude-opus-4-7    COABCv wrong-swap gt=MISMATCH correct=20/20  {'MISMATCH': 20}  refusal_tag=0
+
+==============================================================================
+CONFUSION MATRIX (content verdict)
+==============================================================================
+
+  claude-opus-4-7
+    specificity P(MATCH|matched)   = 0.787 (63/80)
+    sensitivity P(MISMATCH|swap)   = 1.000 (80/80)
+    per-protein matched MATCH-rate (over-flag check):
+      RMD3v MATCH 20/20 (1.00)  {'MATCH': 20}
+      RECRv MATCH 20/20 (1.00)  {'MATCH': 20}
+      TIMv  MATCH 20/20 (1.00)  {'MATCH': 20}
+      COABCv MATCH 3/20 (0.15)  {'MATCH': 3, 'MISMATCH': 17}
+
+Wrote results/label_integrity_spec_verbatim.json

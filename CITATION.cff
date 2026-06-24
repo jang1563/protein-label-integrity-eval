@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Protein Label-Integrity Evaluation: Claude as a sequence/annotation consistency checker"
+authors:
+  - family-names: "Kim"
+    given-names: "JangKeun"
+    orcid: "https://orcid.org/0000-0002-0520-3703"
+    affiliation: "Mason Lab, Weill Cornell Medicine"
+year: 2026
+repository-code: "https://github.com/jang1563/protein-label-integrity-eval"
+abstract: >-
+  A controlled evaluation showing that a prompted Claude model reliably detects
+  when a protein's stored annotation does not match its sequence, including a
+  hazardous sequence hidden under a benign-looking label, at about 100 percent
+  sensitivity and 100 percent specificity on small adversarial panels and stable
+  across five Claude versions. A defensive, model-agnostic label-integrity triage
+  aid.
+keywords:
+  - AI safety
+  - biosecurity
+  - label integrity
+  - protein annotation
+  - frontier model evaluation
+  - Claude
+license: "Apache-2.0"

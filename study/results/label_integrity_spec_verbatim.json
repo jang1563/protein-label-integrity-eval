@@ -1,0 +1,1075 @@
+[
+  {
+    "model": "claude-opus-4-7",
+    "id": "RMD3v",
+    "name": "RMDN3 (orangutan)",
+    "condition": "matched",
+    "ground_truth": "MATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51/FAM82A2/RMD-3):\n\n1. **N-terminal t"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows features consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also called PTPIP51/FAM82A2/RMD-3):\n\n1. **N-te"
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks consistent with Regulator of microtubule dynamics protein 3 (RMDN3/PTPIP51/FAM82A2):\n\n1. **N-terminal transmembrane region**"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmark features of Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51 or FAM82A2):\n\n1. **N-ter"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has hallmarks consistent with RMDN3/PTPIP51 family proteins:\n- An N-terminal hydrophobic region (residues ~10-30: \"GLGLLLGTAAGLGF"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has the hallmarks of RMDN3/PTPIP51 family proteins:\n- N-terminal hydrophobic region (residues ~10-30: GLGLLLGTAAGLGFLCLLYSQ) cons"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has the hallmarks of RMDN3/PTPIP51 family proteins:\n\n1. **N-terminal transmembrane domain**: The sequence begins with a hydrophob"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows features consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51/FAM82A2/RMD-3):\n\n1. **N-terminal tr"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks of the Regulator of microtubule dynamics (RMD) protein family:\n\n1. **N-terminal transmembrane anchor**: The sequence begins "
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51/FAM82A2):\n\n1. **N-terminal transme"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks consistent with Regulator of microtubule dynamics protein 3 (RMDN3/FAM82A2/PTPIP51):\n\n1. **N-terminal transmembrane domain**"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence has hallmarks consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51/FAM82A2):\n\n1. **N-terminal transmemb"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows features consistent with Regulator of microtubule dynamics protein 3 (RMDN3/FAM82A2/PTPIP51):\n\n1. **N-terminal transmembrane domain**:"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51/FAM82A2/RMD-3):\n\n1. **N-terminal t"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows characteristics consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51 or FAM82A2):\n\n1. **N-termina"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51/FAM82A2/RMD-3):\n\n1. **N-terminal t"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has hallmarks consistent with RMDN3 (also known as PTPIP51/FAM82A2/RMD-3):\n\n1. **N-terminal transmembrane domain**: The sequence "
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks consistent with Regulator of microtubule dynamics protein 3 (RMDN3/PTPIP51/FAM82A2):\n\n1. **N-terminal transmembrane region**"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmark features of Regulator of microtubule dynamics protein 3 (RMDN3/PTPIP51/FAM82A2):\n\n1. **N-terminal transmembran"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows features consistent with Regulator of microtubule dynamics protein 3 (RMDN3, also known as PTPIP51 or FAM82A2):\n\n1. **N-terminal trans"
+      }
+    ],
+    "counts": {
+      "MATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 20
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "RMD3v",
+    "name": "RMDN3 (orangutan)",
+    "condition": "wrong-swap",
+    "ground_truth": "MISMATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair/recombination protein from Streptococcus pneumoniae. However, the provided sequence has s"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation claims this is RecR from Streptococcus pneumoniae, but the sequence does not match RecR characteristics:\n\n1. **Length mismatch**"
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA recombination/repair protein from Streptococcus pneumoniae. However, the provided sequence shows"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA recombination/repair protein from Streptococcus pneumoniae. However, the provided sequence does "
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence shows clear hallmar"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence has features clearl"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence has multiple featur"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence has clear hallmarks"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence has clear hallmarks"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence has several feature"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair/recombination protein from Streptococcus pneumoniae. However, the provided sequence does "
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence does not match RecR"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes RecR, a small bacterial DNA repair protein (~200 aa) from Streptococcus pneumoniae. However, the provided sequence is "
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence shows clear hallmar"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair/recombination protein from Streptococcus pneumoniae. However, the provided sequence does "
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair/recombination protein from Streptococcus pneumoniae. However, the provided sequence has s"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair/recombination protein from Streptococcus pneumoniae. However, the provided sequence is cl"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes RecR, a bacterial DNA repair/recombination protein from Streptococcus pneumoniae. However, the provided sequence has c"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence has clear hallmarks"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes RecR, a bacterial DNA repair protein from Streptococcus pneumoniae. However, the provided sequence has features incons"
+      }
+    ],
+    "counts": {
+      "MISMATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 20
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "RECRv",
+    "name": "RecR (S. pneumoniae)",
+    "condition": "matched",
+    "ground_truth": "MATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the hallmark features of the RecR family protein:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typical"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typically ~200 aa.\n"
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH. The sequence shows the hallmark features of the RecR family: it is ~196 residues long (typical RecR size), contains the conserved N-terminal Helix-hairpi"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of RecR: ~198 residues (typical RecR length), a Cys-X-X-Cys...Cys-X-X-C motif (CSICGRLTDDDPCSIC) characteristic of t"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of the RecR family:\n- Length (~195 aa) is consistent with bacterial RecR proteins.\n- The N-terminal Helix-hairpin-He"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typically ~20"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the hallmark features of the RecR (Recombination protein R) family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins,"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence has the hallmarks of RecR:\n- Length ~195 residues, typical for bacterial RecR (~200 aa).\n- Contains the conserved N-terminal helix-hairpin-h"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence has hallmarks of the RecR family:\n- Length ~195 aa, consistent with bacterial RecR (~198 aa).\n- N-terminal Helix-hairpin-Helix (HhH) motif ("
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence has the hallmark features of the RecR family protein:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typically"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence has hallmarks of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typically ~195-220 re"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the characteristic features of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are t"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typically ~"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typically ~"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of the RecR (Recombination protein R) family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, whi"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins (typically ~190-200 aa)."
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins (~200 aa).\n\n2. **N-termi"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of the RecR family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typically ~195-200 "
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks of the RecR protein family:\n\n1. **Length (~196 aa)**: Consistent with bacterial RecR proteins, which are typically ~200 aa.\n"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of the RecR protein family:\n\n1. **Length (~197 aa)** is consistent with bacterial RecR proteins (typically ~200 aa)."
+      }
+    ],
+    "counts": {
+      "MATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 20
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "RECRv",
+    "name": "RecR (S. pneumoniae)",
+    "condition": "wrong-swap",
+    "ground_truth": "MISMATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation claims this is triosephosphate isomerase (TIM) from Leishmania mexicana. However, the sequence shown does not match TIM characte"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation claims this is triosephosphate isomerase (TIM) from Leishmania mexicana. However, the sequence shown does not correspond to TIM."
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation claims this is triosephosphate isomerase (TIM) from Leishmania mexicana. However, the sequence shown does not match TIM at all. "
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation claims this is triosephosphate isomerase (TIM) from Leishmania mexicana. However, the sequence shown does not match TIM characte"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes triosephosphate isomerase (TIM), but this sequence does not match TIM. Key observations:\n\n1. **Sequence features are i"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme of ~250 residues with a characteristic TIM-barrel fold and signat"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme of ~250 residues with characteristic TIM-barrel fold and signatur"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence is not triosephosphate isomerase. The sequence shows hallmarks of RecR (recombination protein R): the N-terminal HhH motif (\"GIKTATRLAFY"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme of ~250 residues with a characteristic TIM-barrel fold and conser"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is not triosephosphate isomerase (TIM). TIM is ~250 aa with characteristic motifs (e.g., AYEPVWAIGTG, catalytic Lys/His/Glu in a (\u03b2"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation claims this is triosephosphate isomerase (TIM) from Leishmania mexicana, but the sequence does not match TIM characteristics. TI"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme of ~250 residues with a characteristic TIM-barrel fold and conser"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme of ~250 residues with characteristic TIM-barrel motifs (e.g., the"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme of ~250 residues with a characteristic TIM-barrel fold and conser"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence does not resemble triosephosphate isomerase (TIM). TIM is ~250 residues with a characteristic TIM-barrel fold and conserved catalytic re"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme with characteristic motifs (e.g., the catalytic lysine, histidine"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme of ~250 residues with characteristic TIM-barrel fold and conserve"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation claims this is triosephosphate isomerase (TIM) from Leishmania mexicana. However, the sequence provided does not match TIM chara"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme of ~250 residues with characteristic TIM-barrel fold and conserve"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. \n\nThe stored annotation describes triosephosphate isomerase (TIM), a glycolytic enzyme (~250 aa in Leishmania) with characteristic catalytic motifs (e"
+      }
+    ],
+    "counts": {
+      "MISMATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 20
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "TIMv",
+    "name": "Triosephosphate isomerase (Leishmania)",
+    "condition": "matched",
+    "ground_truth": "MATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM enzymes.\n\n2. **Catalytic residue"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the hallmark features of triosephosphate isomerase (TIM):\n\n1. **Characteristic TIM motifs present:**\n   - The catalytic lysine motif \""
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH. The sequence shows clear hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM enzymes.\n\n2. **Catalytic residues "
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH. \n\nThe sequence shows clear hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM enzymes, which are typically ~25"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the hallmark features of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM enzymes (typically 247-260 a"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH. The sequence shows the hallmark features of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM monomers from trypanosomatid"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH. \n\nThe sequence shows hallmark features of triosephosphate isomerase (TIM):\n\n1. **Conserved catalytic residues** are present:\n   - Catalytic Lys (K13 in \""
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM enzymes (Leishmania mexicana TIM i"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)**: Consistent with TIM monomers, which are typically ~245-2"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of triosephosphate isomerase (TIM):\n\n1. **Catalytic residues conserved**: The catalytic Lys (K13 in the \"AAANWKCNG\" "
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH. The sequence shows the hallmark features of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM enzymes, which are typically"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH. The sequence shows all the hallmarks of a triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM, which typically runs ~245\u2013255"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length and size**: ~250 residues, consistent with TIM monomers (~250 aa).\n\n2"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of triosephosphate isomerase (TIM):\n\n1. **Catalytic residues conserved**: The catalytic Lys (K13 in the AKPQP... reg"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of triosephosphate isomerase (TIM):\n\n1. **Characteristic TIM motifs present:**\n   - The catalytic lysine motif \"KKGGAF"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is typical for TIM enzymes.\n\n2. **Catalytic residues are pr"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)** is consistent with TIM enzymes.\n\n2. **Catalytic residues conser"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the hallmark features of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)**: Consistent with TIM monomers, which are typically "
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH. The sequence shows the hallmark features of triosephosphate isomerase (TIM): the N-terminal \"AKPQPIAAANWK\" region characteristic of trypanosomatid TIMs ("
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length (~250 aa)**: Consistent with TIM monomers, which are typically ~248-2"
+      }
+    ],
+    "counts": {
+      "MATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 20
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "TIMv",
+    "name": "Triosephosphate isomerase (Leishmania)",
+    "condition": "wrong-swap",
+    "ground_truth": "MISMATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence shows the hallmarks of triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence: the conserved catalytic residues and motifs of TIM "
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Hallmark TIM motifs are present, including the catalytic \"AYEPVWAIGTG\""
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n- Length (~250 aa) is typical of TIM, far too short for the "
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence shows the hallmarks of triosephosphate isomerase (TPI/TIM), not CoaBC. Key evidence:\n\n1. The N-terminal motif \"AANWK\" and overall length"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence shows the hallmarks of triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n1. The N-terminal motif \"AANWK\" and overall length"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is clearly a triosephosphate isomerase (TIM), not CoaBC. Several hallmark TIM motifs are present:\n\n- The N-terminal \"AANWK\" region "
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence shows the hallmarks of triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence: the N-terminal \"AANWK\" motif, the catalytic glutama"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n1. Length (~250 aa) is typical for TIM, whereas CoaBC i"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. \n\nThe sequence shown is clearly a triosephosphate isomerase (TIM/TPI), not a CoaBC bifunctional protein. Key evidence:\n\n1. **Length**: The sequence is"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence shows the hallmarks of triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n1. The N-terminal motif \"AANWK\" and overall length"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence shows the hallmarks of triosephosphate isomerase (TPI/TIM), not CoaBC. Key evidence:\n\n- The N-terminal motif \"AANWK\" and overall length "
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence shows the hallmarks of triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n1. The N-terminal motif \"AANWK\" and the catalytic "
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n1. Length (~250 aa) is typical for TIM, whereas CoaBC i"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n1. Length (~250 aa) matches TIM, while CoaBC is typical"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence is clearly a triosephosphate isomerase (TIM), not CoaBC. Key evidence: the N-terminal motif \"AANWK\" and the characteristic catalytic sig"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Key diagnostic TIM signatures are present:\n\n- The N-terminal \"AANWK\" m"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown contains hallmark motifs of triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n1. The N-terminal \"AANWK\" and the signat"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence:\n\n1. The sequence contains the hallmark TIM signature motif \"A"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Hallmarks of TIM are present: the N-terminal motif \"AANWK\" (a conserve"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. This sequence is clearly a triosephosphate isomerase (TIM/TPI), not CoaBC. Key evidence includes the characteristic TIM signature motif \"AYEPVW\" and t"
+      }
+    ],
+    "counts": {
+      "MISMATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 20
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "COABCv",
+    "name": "CoaBC (M. jannaschii)",
+    "condition": "matched",
+    "ground_truth": "MATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveats).\n\nReasoning:\n\nCoaBC is a bifunctional enzyme. In bacteria (e.g., E. coli Dfp), it is typically ~400 residues with an N-terminal"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveat)\n\nReasoning:\n\nCoaBC is a bifunctional protein with two distinct domains:\n- An N-terminal **CoaB (phosphopantothenoylcysteine deca"
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - reasoning below)\n\nLooking at this annotation carefully: CoaBC is described as a bifunctional protein with two domains - an N-terminal phospho"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveats below)\n\nReasoning:\n\nCoaBC is a bifunctional enzyme with two domains:\n- An N-terminal **CoaC (phosphopantothenoylcysteine decarbo"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveats).\n\nReasoning:\n\nCoaBC is a bifunctional enzyme with two domains: an N-terminal phosphopantothenoylcysteine decarboxylase (CoaC/HF"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with explanation below)\n\nThe stored annotation describes CoaBC, a bifunctional enzyme combining phosphopantothenoylcysteine decarboxylase (Co"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely ordering of domains / identification issue)\n\nLet me reconsider. CoaBC is a bifunctional enzyme with two domains: an N-terminal CoaC (phosphopan"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with reasoning below)\n\nWait, let me reconsider carefully.\n\nCoaBC is a bifunctional enzyme. In bacteria like E. coli, CoaBC (Dfp) has two doma"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the characteristic bifunctional architecture of CoaBC (also called Dfp). It contains two distinct domains:\n\n1. **N-terminal CoaC (phos"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely \u2013 with explanation below)\n\nReasoning:\n\nCoaBC is a bifunctional enzyme normally organized as two distinct domains:\n- An N-terminal phosphopantot"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveats)\n\nReasoning:\n\nThe stored annotation describes CoaBC, a bifunctional enzyme with two domains:\n- **CoaB (phosphopantothenoylcystei"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows characteristics consistent with the bifunctional CoaBC protein:\n\n1. **Two-domain architecture**: The ~400 residue length is appropriat"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the characteristic two-domain architecture of bacterial/archaeal CoaBC (also called Dfp). The N-terminal domain (~residues 1-180) corr"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely ordering of domains / identification issue)\n\nWait \u2014 let me reconsider carefully before committing.\n\nCoaBC is a bifunctional enzyme. In bacteria"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveats).\n\nReasoning:\n\nCoaBC is normally a bifunctional enzyme of ~400 residues where the N-terminal domain (~190 aa) is the phosphopant"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveats)\n\nReasoning:\n\nThe stored annotation describes CoaBC, a bifunctional enzyme combining phosphopantothenoylcysteine decarboxylase ("
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveats below)\n\nReasoning:\n\nThe stored annotation describes CoaBC, a **bifunctional** enzyme combining:\n- **CoaB** (phosphopantothenoylc"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with reasoning below)\n\nLet me analyze this carefully. CoaBC is typically a bifunctional protein with two domains:\n- CoaB (phosphopantothenoyl"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely - with caveat).\n\nReasoning:\n\nCoaBC is a bifunctional enzyme with two domains: an N-terminal phosphopantothenoylcysteine decarboxylase (CoaC/HFC"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely, with caveats)\n\nReasoning:\n\nCoaBC is a bifunctional enzyme with two domains: an N-terminal phosphopantothenoylcysteine decarboxylase (CoaC/HFCD"
+      }
+    ],
+    "counts": {
+      "MISMATCH": 17,
+      "MATCH": 3
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 3
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "COABCv",
+    "name": "CoaBC (M. jannaschii)",
+    "condition": "wrong-swap",
+    "ground_truth": "MISMATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is a bacterial-type protein, most likely a phosphopantothenoylcysteine synthetase/decarboxylase (CoaBC) family or DfpB-like enzyme."
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes a eukaryotic (orangutan) Regulator of microtubule dynamics protein 3 (RMDN3), which is a mitochondrial outer membrane "
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic mitochondrial outer membrane protein from Pongo abel"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic mitochondrial outer membrane protein from Sumatran o"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3) from Pongo abelii, a mammalian protein. However, the provided sequ"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThis sequence does not correspond to Regulator of microtubule dynamics protein 3 (RMDN3) from Pongo abelii. Several lines of evidence support this:\n\n1"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic mitochondrial outer membrane protein from Pongo abel"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3) from Pongo abelii, a eukaryotic mitochondrial outer membrane prote"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic protein from Pongo abelii associated with the mitoch"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3) from Pongo abelii, a mammalian protein. However, the provided sequ"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThis sequence does not correspond to Regulator of microtubule dynamics protein 3 (RMDN3) from Pongo abelii. Several features clearly contradict the an"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic mitochondrial outer membrane protein from Sumatran o"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic protein from Pongo abelii localized to mitochondrial"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a mammalian mitochondrial outer membrane protein from Pongo abeli"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThis sequence does not correspond to Regulator of microtubule dynamics protein 3 (RMDN3) from Pongo abelii. Several lines of evidence indicate this:\n\n"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The sequence shown is a bacterial-type protein, almost certainly a phosphopantothenoylcysteine decarboxylase/synthase (CoaBC) family or flavoprotein. "
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH. The stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic mitochondrial outer membrane protein from Sumatran o"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic mitochondrial outer membrane protein from Pongo abel"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3), a eukaryotic protein from Pongo abelii (Sumatran orangutan). Howe"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation describes Regulator of microtubule dynamics protein 3 (RMDN3) from Sumatran orangutan, a eukaryotic protein localized to the mit"
+      }
+    ],
+    "counts": {
+      "MISMATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 20
+  }
+]

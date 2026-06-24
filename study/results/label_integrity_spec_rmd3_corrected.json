@@ -1,0 +1,137 @@
+[
+  {
+    "model": "claude-opus-4-7",
+    "id": "PONAB_RMD3c",
+    "name": "Regulator of microtubule dynamics protein 3 (orangutan), corrected length",
+    "condition": "matched",
+    "ground_truth": "MATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- Length: The sequence is 470 residues, consistent with the annotation.\n- N-terminal transmembrane anchor: The sequence begins with a hydropho"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length**: The sequence is 470 residues, matching the annotation's claim of a 470-residue full-length protein.\n\n2. **N-terminal transmemb"
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length and overall architecture**: The sequence is 470 residues, matching the stated full-length protein. It begins with a hydrophobic s"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- Length: The sequence is 470 residues, matching the stated full-length RMDN3.\n- N-terminal hydrophobic anchor: The sequence begins with a cle"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. **Topology issue**: RMDN3/PTPIP51 is a tail-anchored protein, meaning the transmembrane domain is at the **C-terminus**, not the N-term"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- Length: The sequence is 470 residues, matching the annotation's stated length.\n- N-terminal hydrophobic anchor: The sequence begins with a h"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length**: The sequence is 470 residues, matching the annotation's stated length.\n\n2. **N-terminal transmembrane anchor**: The sequence b"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length check**: The sequence provided is 470 residues, matching the annotation's claim of a 470-residue full-length protein.\n\n2. **N-ter"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length check**: The sequence is 470 residues, matching the stated full-length protein.\n\n2. **N-terminal transmembrane anchor**: The sequ"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length and overall architecture**: The sequence is 470 residues, matching the stated full-length protein. The N-terminus (MSRLGALGGARAGL"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length check**: The sequence provided is 470 residues, matching the stated full-length protein.\n\n2. **N-terminal transmembrane anchor**:"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- Length: The sequence is 470 residues, matching the stated full-length RMDN3.\n- N-terminal transmembrane anchor: The sequence begins with a h"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence is 470 residues long, matching the annotation's stated length.\n- The N-terminus (MSRLGALGGARAGLGLLLGTAAGLGFLCLLYSQR...) shows a"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence is 470 residues long, consistent with the annotation's stated length.\n- The N-terminus (MSRLGALGGARAGLGLLLGTAAGLGFLCLLYSQR...) "
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length**: The sequence is 470 residues, matching the annotation's claim of a 470-residue full-length protein.\n\n2. **N-terminal transmemb"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length**: The sequence is 470 residues, matching the annotation's claim of a 470-residue full-length protein.\n\n2. **N-terminal transmemb"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length and architecture**: The sequence is 470 residues, matching the stated full-length RMDN3/PTPIP51. The N-terminus (MSRLGALGGARAGLGL"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length**: The sequence is 470 residues, matching the annotation.\n\n2. **N-terminal transmembrane anchor**: The sequence begins with \"MSRL"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length check**: The sequence is 470 residues long, matching the annotation's claim of a 470-residue full-length protein.\n\n2. **N-termina"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n\n1. **Length**: The sequence is 470 residues, matching the stated full-length protein.\n\n2. **N-terminal transmembrane anchor**: The N-terminus"
+      }
+    ],
+    "counts": {
+      "MATCH": 19,
+      "MISMATCH": 1
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 19
+  }
+]

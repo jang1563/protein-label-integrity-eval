@@ -1,0 +1,19 @@
+XP4-spec label-integrity specificity -- models ['claude-opus-4-7'], n=20
+==============================================================================
+  claude-opus-4-7    PONAB_RMD3 matched    gt=MATCH    correct=0/20  {'MISMATCH': 20}  refusal_tag=0
+  claude-opus-4-7    STRPN_RECR matched    gt=MATCH    correct=20/20  {'MATCH': 20}  refusal_tag=0
+  claude-opus-4-7    LEIME_TIM matched    gt=MATCH    correct=11/20  {'MATCH': 11, 'MISMATCH': 9}  refusal_tag=0
+
+==============================================================================
+CONFUSION MATRIX (content verdict)
+==============================================================================
+
+  claude-opus-4-7
+    specificity P(MATCH|matched)   = 0.517 (31/60)
+    sensitivity P(MISMATCH|swap)   = nan (0/0)
+    per-protein matched MATCH-rate (over-flag check):
+      PONAB_RMD3 MATCH 0/20 (0.00)  {'MISMATCH': 20}
+      STRPN_RECR MATCH 20/20 (1.00)  {'MATCH': 20}
+      LEIME_TIM MATCH 11/20 (0.55)  {'MATCH': 11, 'MISMATCH': 9}
+
+Wrote results/label_integrity_spec_obscure.json

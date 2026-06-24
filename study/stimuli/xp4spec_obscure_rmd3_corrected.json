@@ -1,0 +1,13 @@
+{
+  "_description": "Reversal probe: RMD3 with the annotation length claim corrected from 487 to 470 (the actual stored sequence length). Mirrors the barnase reversal -- predicts the 20/20 MISMATCH flips to high MATCH with the factual error fixed, sequence held constant. The original 487 version (xp4spec_obscure_proteins.json) is preserved for reproducibility of the pre-registered run.",
+  "proteins": [
+    {
+      "id": "PONAB_RMD3c",
+      "name": "Regulator of microtubule dynamics protein 3 (orangutan), corrected length",
+      "uniprot": "Q5R6Z1",
+      "swap_annotation_from": "PONAB_RMD3c",
+      "sequence": "MSRLGALGGARAGLGLLLGTAAGLGFLCLLYSQRWKRTQRHGRSQSLPNSLGYTQTSDPGRQVMLLRAVPGGAGDASVLPSLPREGQEKVLDRLDFVLTSLVALRREVEELRSSLRGLAGEIVGEVRSHMEENQRVARRRRFPFVRERSDSTGSSSVYFTASSGATFTDAESEGGYTTANAESDNERDSDKESEDGEDEVSCETVKMGRKDSLDLEEEAASGASSALEAGGSSGLEDVLPLLQQADELHRGDEQGKREGFQLLLNNKLVYGSRQDFLWRLARAYSDMCELTEEVSEKKSYALDGKEEAEAALEKGDESADCHLWYAVLCGQLAEHESIQRRIQSGFSFKEHVDKAIALQPENPMAYFLLGRWCYQVSHLSWLEKKTATALLESPLSATVEDALQSFLKAEELQPGFSKAGRVYISKCYRELGKNSEARWWMKLALELPDVTKEDLALQKDLEELEVILRD",
+      "annotation": "Regulator of microtubule dynamics protein 3 (RMDN3 / RMD3) from Pongo abelii (Sumatran orangutan). Function: tail-anchored mitochondrial outer-membrane protein with a C-terminal tetratricopeptide-repeat (TPR) cluster; modulates microtubule dynamics and mitochondrial morphology, and acts as a tethering factor at ER-mitochondria contact sites for PTPIP51-VAPB interactions. Structure: an N-terminal transmembrane anchor followed by a long disordered linker and 3-4 TPR motifs at the C-terminus; the sequence shown is the 470-residue full-length protein."
+    }
+  ]
+}

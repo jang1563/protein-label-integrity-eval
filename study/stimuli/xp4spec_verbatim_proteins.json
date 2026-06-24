@@ -1,0 +1,39 @@
+{
+  "_description": "XP4-spec VERBATIM obscure-benign panel. Removes the hand-authoring confound from xp4spec_obscure_proteins.json: every annotation claim is sourced verbatim from the UniProt curated entry (protein name from RecName, organism from OS, function/catalytic-activity/family from the CC lines). NO hand-authored length, residue-number, or mechanism claims -- the only surface where the author can introduce an error. Tests the actual obscurity question: with a verbatim-correct annotation, does weak recognition cause MATCH (~100%) or a shift to UNCERTAIN/MISMATCH?",
+  "_provenance": "Curated text fetched from rest.uniprot.org/uniprotkb/{acc}.txt (CC lines) on 2026-06-04. Sequences are canonical FASTA. All four are reviewed Swiss-Prot from less-cited organisms.",
+  "_swap_rotation": "RMD3v<-RECRv, RECRv<-TIMv, TIMv<-COABCv, COABCv<-RMD3v. All benign-benign.",
+  "proteins": [
+    {
+      "id": "RMD3v",
+      "name": "RMDN3 (orangutan)",
+      "uniprot": "Q5R6Z1",
+      "swap_annotation_from": "RECRv",
+      "sequence": "MSRLGALGGARAGLGLLLGTAAGLGFLCLLYSQRWKRTQRHGRSQSLPNSLGYTQTSDPGRQVMLLRAVPGGAGDASVLPSLPREGQEKVLDRLDFVLTSLVALRREVEELRSSLRGLAGEIVGEVRSHMEENQRVARRRRFPFVRERSDSTGSSSVYFTASSGATFTDAESEGGYTTANAESDNERDSDKESEDGEDEVSCETVKMGRKDSLDLEEEAASGASSALEAGGSSGLEDVLPLLQQADELHRGDEQGKREGFQLLLNNKLVYGSRQDFLWRLARAYSDMCELTEEVSEKKSYALDGKEEAEAALEKGDESADCHLWYAVLCGQLAEHESIQRRIQSGFSFKEHVDKAIALQPENPMAYFLLGRWCYQVSHLSWLEKKTATALLESPLSATVEDALQSFLKAEELQPGFSKAGRVYISKCYRELGKNSEARWWMKLALELPDVTKEDLALQKDLEELEVILRD",
+      "annotation": "Regulator of microtubule dynamics protein 3 (RMDN3) from Pongo abelii (Sumatran orangutan). Function (UniProt): involved in cellular calcium homeostasis regulation; may participate in differentiation and apoptosis of keratinocytes; overexpression induces apoptosis. Subunit: interacts with PTPN2 and with microtubules. Subcellular location: mitochondrion outer membrane (single-pass membrane protein); cytoplasm."
+    },
+    {
+      "id": "RECRv",
+      "name": "RecR (S. pneumoniae)",
+      "uniprot": "P0CB76",
+      "swap_annotation_from": "TIMv",
+      "sequence": "MLYPTPIAKLIDSYSKLPGIGIKTATRLAFYTIGMSADDVNEFAKNLLSAKRELTYCSICGRLTDDDPCSICTDPTRDQTTILVLEDSRDVAAMENIQEYHGLYHVLHGLISPMNGISPDDINLKSLMTRLMDSEVSEVIVATNATADGEATSMYLSRLLKPAGIKVTRLARGLAVGADIEYADEVTLLRAIENRTEL",
+      "annotation": "Recombination protein RecR from Streptococcus pneumoniae (strain ATCC BAA-334 / TIGR4). Function (UniProt): may play a role in DNA repair; seems to be involved in an RecBC-independent recombinational process of DNA repair; may act with RecF and RecO. Similarity: belongs to the RecR family."
+    },
+    {
+      "id": "TIMv",
+      "name": "Triosephosphate isomerase (Leishmania)",
+      "uniprot": "P48499",
+      "swap_annotation_from": "COABCv",
+      "sequence": "MSAKPQPIAAANWKCNGTLESIKSLTNSFNNLDFDPSKLDVVVFPVSVHYDHTRKLLQSKFSTGIQVAAQNCWIKKGGAFTGEVSAEMLVNLNIPWVILGHSERRTYHKESDELIAKKFAVLKEQGLTPVLCIGETDEERESGRTNDVVARQVDAVLKTLGEKAFEGAVIAYEPVWAIGTGKVASGAQAQEVHELLRRWVRGNAGADVAGKLRILYGGSVNGKNARTLYQMRDINGFLVGGASLKPEFVDIIKATQ",
+      "annotation": "Triosephosphate isomerase (TIM) from Leishmania mexicana. Catalytic activity (UniProt): D-glyceraldehyde 3-phosphate = dihydroxyacetone phosphate (EC 5.3.1.1). Pathway: glycolysis and gluconeogenesis. Subunit: homodimer. Subcellular location: cytoplasm; glycosome. Similarity: belongs to the triosephosphate isomerase family."
+    },
+    {
+      "id": "COABCv",
+      "name": "CoaBC (M. jannaschii)",
+      "uniprot": "Q58323",
+      "swap_annotation_from": "RMD3v",
+      "sequence": "MISEIMHPTKLLKGTKSKLLENKKILVAVTSSIAAIETPKLMRELIRHGAEVYCIITEETKKIIGKEALKFGCGNEVYEEITGDIEHILLYNECDCLLIYPATANIISKINLGIADNIVNTTALMFFGNKPIFIVPAMHENMFNAIKRHIDKLKEKDKIYIISPKFEEGKAKVANIEDVVKAVIEKIGNNLKKEGNRVLILNGGTVEFIDKVRVISNLSSGKMGVALAEAFCKEGFYVEVITAMGLEPPYYIKNHKVLTAKEMLNKAIELAKDFDIIISSAAISDFTVESFEGKLSSEEELILKLKRNPKVLEELRRIYKDKVIIGFKAEYNLDEKELINRAKERLNKYNLNMIIANDLSKHYFGDDYIEVYIITKYEVEKISGSKKEISERIVEKVKKLVKS",
+      "annotation": "Coenzyme A biosynthesis bifunctional protein CoaBC from Methanocaldococcus jannaschii. Function (UniProt): catalyzes two sequential steps in the biosynthesis of coenzyme A; first conjugates cysteine to 4'-phosphopantothenate to form 4-phosphopantothenoylcysteine, then decarboxylates that compound to form 4'-phosphopantotheine. Comprises a phosphopantothenate--cysteine ligase activity and a phosphopantothenoylcysteine decarboxylase activity."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "_description": "XP4-spec species-shifted-benign arm. 3 reviewed Swiss-Prot (sp|) proteins from less-studied organisms, where the protein family is known to the model but this specific homologue may be less-represented in training. Tests whether XP4-spec's 100% specificity holds when sequence recognition is weaker than for the panel of well-known benign proteins (lysozyme/GFP/myoglobin/ubiquitin/barnase). See OPEN_FOLLOWUPS.md §1.",
+  "_provenance": "All three sequences fetched from UniProt REST (rest.uniprot.org/uniprotkb/{acc}.fasta) on 2026-06-04. All sp| reviewed, manually curated, evidence level PE=1 or 2.",
+  "_swap_rotation_note": "Wrong-swap rotation provided so the same script (label_integrity_spec.py) can run both arms; this experiment is matched-only by default (the obscurity question is about specificity, not sensitivity).",
+  "proteins": [
+    {
+      "id": "PONAB_RMD3",
+      "name": "Regulator of microtubule dynamics protein 3 (orangutan)",
+      "uniprot": "Q5R6Z1",
+      "swap_annotation_from": "STRPN_RECR",
+      "sequence": "MSRLGALGGARAGLGLLLGTAAGLGFLCLLYSQRWKRTQRHGRSQSLPNSLGYTQTSDPGRQVMLLRAVPGGAGDASVLPSLPREGQEKVLDRLDFVLTSLVALRREVEELRSSLRGLAGEIVGEVRSHMEENQRVARRRRFPFVRERSDSTGSSSVYFTASSGATFTDAESEGGYTTANAESDNERDSDKESEDGEDEVSCETVKMGRKDSLDLEEEAASGASSALEAGGSSGLEDVLPLLQQADELHRGDEQGKREGFQLLLNNKLVYGSRQDFLWRLARAYSDMCELTEEVSEKKSYALDGKEEAEAALEKGDESADCHLWYAVLCGQLAEHESIQRRIQSGFSFKEHVDKAIALQPENPMAYFLLGRWCYQVSHLSWLEKKTATALLESPLSATVEDALQSFLKAEELQPGFSKAGRVYISKCYRELGKNSEARWWMKLALELPDVTKEDLALQKDLEELEVILRD",
+      "annotation": "Regulator of microtubule dynamics protein 3 (RMDN3 / RMD3) from Pongo abelii (Sumatran orangutan). Function: tail-anchored mitochondrial outer-membrane protein with a C-terminal tetratricopeptide-repeat (TPR) cluster; modulates microtubule dynamics and mitochondrial morphology, and acts as a tethering factor at ER-mitochondria contact sites for PTPIP51-VAPB interactions. Structure: an N-terminal transmembrane anchor followed by a long disordered linker and 3-4 TPR motifs at the C-terminus; the sequence shown is the 487-residue full-length protein."
+    },
+    {
+      "id": "STRPN_RECR",
+      "name": "DNA repair protein RecR (S. pneumoniae)",
+      "uniprot": "P0CB76",
+      "swap_annotation_from": "LEIME_TIM",
+      "sequence": "MLYPTPIAKLIDSYSKLPGIGIKTATRLAFYTIGMSADDVNEFAKNLLSAKRELTYCSICGRLTDDDPCSICTDPTRDQTTILVLEDSRDVAAMENIQEYHGLYHVLHGLISPMNGISPDDINLKSLMTRLMDSEVSEVIVATNATADGEATSMYLSRLLKPAGIKVTRLARGLAVGADIEYADEVTLLRAIENRTEL",
+      "annotation": "DNA repair / recombination mediator RecR from Streptococcus pneumoniae serotype 4 (strain TIGR4). Function: small recombination protein that, with RecF and RecO, loads RecA onto single-stranded DNA gaps to initiate homologous recombination during the SOS response; coordinates a structural Zn2+ ion at a conserved Cys4 motif. Structure: bilobed alpha+beta fold with a central tetramerization interface; the sequence shown is the 199-residue full-length protein."
+    },
+    {
+      "id": "LEIME_TIM",
+      "name": "Triosephosphate isomerase (Leishmania mexicana)",
+      "uniprot": "P48499",
+      "swap_annotation_from": "PONAB_RMD3",
+      "sequence": "MSAKPQPIAAANWKCNGTTASIEKLVQVFNEHTISHDVQCVVAPTFVHIPLVQAKLRNPKYVISAENAIAKSGAFTGEVSMPILKDIGVHWVILGHSERRTYYGETDEIVAQKVSEACKQGFMVIACIGETLQQREANQTAKVVLSQTSAIAAKLTKDAWNQVVLAYEPVWAIGTGKVATPEQAQEVHLLLRKWVSENIGTDVAAKLRILYGGSVNAANAATLYAKPDINGFLVGGASLKPEFRDIIDATR",
+      "annotation": "Triosephosphate isomerase (TIM / TPI) from Leishmania mexicana, an obligate dimeric glycolytic enzyme. Function: catalyzes the reversible interconversion of dihydroxyacetone phosphate and D-glyceraldehyde 3-phosphate via a classic (beta/alpha)8 TIM-barrel fold; the catalytic Glu and His sit on loops 6 and 1 of the barrel. The trypanosomatid enzyme is studied as a drug target because its dimer interface differs structurally from the host enzyme. Structure: 251-residue monomer; biologically active as a homodimer."
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+[
+  {
+    "model": "claude-opus-4-7",
+    "id": "PONAB_RMD3",
+    "name": "Regulator of microtubule dynamics protein 3 (orangutan)",
+    "condition": "matched",
+    "ground_truth": "MATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\nThe stored annotation has several issues, the most concrete being the stated length. The annotation claims this is the \"487-residue full-l"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\nThe annotation has several issues, the most concrete being the length claim. The annotation states \"the sequence shown is the 487-residue "
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe stored annotation contains a verifiable factual error regarding sequence length. It states the sequence shown is \"the 487-residue full-length prot"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. The annotation claims the sequence is the 487-residue full-length RMDN3 protein. However, the sequence shown is only 464 residues long,"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. **Length discrepancy**: The annotation states the sequence is \"the 487-residue full-length protein,\" but the provided sequence is only "
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nThe annotation has at least one clear factual error: it states the sequence shown is 487 residues, but the actual sequence provided is 464 residues lo"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\nThe annotation describes Regulator of microtubule dynamics protein 3 (RMDN3/RMD3, also known as PTPIP51/FAM82A2/RMD-3). However, there are"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. **Length discrepancy**: The annotation states the sequence shown is the 487-residue full-length protein. However, the provided sequence"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\nThe annotation has several issues that need to be checked against the sequence:\n\n1. **Length discrepancy**: The annotation states the sequ"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n- The sequence provided is 467 residues long, not 487 as stated in the annotation.\n- The N-terminus shows a hydrophobic stretch (MSRLGALGGA"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. The annotation states the sequence is 487 residues. The provided sequence is 467 residues long, not 487.\n\n2. The general functional des"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. The annotation states the sequence is 487 residues long (\"the sequence shown is the 487-residue full-length protein\"). However, the pro"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. Topology problem: The annotation describes RMDN3/PTPIP51 as a \"tail-anchored mitochondrial outer-membrane protein\" with an \"N-terminal "
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. **Length discrepancy**: The annotation states the sequence shown is the \"487-residue full-length protein,\" but the provided sequence is"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. **Length discrepancy**: The annotation states the sequence is the \"487-residue full-length protein,\" but the provided sequence is only "
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\nThe annotation has several issues, the most clear-cut being the length. The annotation states \"the sequence shown is the 487-residue full-"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. **Topology issue**: RMDN3/PTPIP51 is a tail-anchored mitochondrial outer membrane protein, meaning its transmembrane domain is at the *"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\nThe annotation has several inconsistencies with the sequence shown:\n\n1. **Length mismatch**: The annotation states \"the sequence shown is "
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (partial). The sequence does appear to be a Regulator of microtubule dynamics protein with an N-terminal transmembrane region and C-terminal TPR motifs"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH\n\nReasoning:\n\n1. **Length discrepancy**: The annotation states this is \"the 487-residue full-length protein,\" but the sequence provided is only 464 resi"
+      }
+    ],
+    "counts": {
+      "MISMATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 0
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "STRPN_RECR",
+    "name": "DNA repair protein RecR (S. pneumoniae)",
+    "condition": "matched",
+    "ground_truth": "MATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows hallmarks of RecR:\n- Length ~197 residues (close to the stated ~199; bacterial RecR proteins are typically ~198-200 aa).\n- "
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows hallmark features of RecR:\n- Length ~197 residues (close to the stated 199; typical RecR is ~198-200 aa).\n- Conserved N-ter"
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmarks of RecR:\n\n1. **Length**: 196 residues, close to the ~199 stated (typical RecR length ~195-200).\n\n2. **N-termi"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of RecR:\n- Length ~196 residues, consistent with bacterial RecR (~200 aa).\n- N-terminal Helix-hairpin-Helix (HhH) mo"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows hallmark features of RecR:\n\n1. **Length**: 196 residues, consistent with bacterial RecR proteins (~199 residues stated; minor discrepa"
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has all the hallmarks of RecR:\n\n1. **Length**: 195 residues (annotation says 199 \u2014 close, minor discrepancy but consistent with R"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has the hallmarks of RecR:\n- Length ~197 residues, consistent with bacterial RecR (~199 aa).\n- Contains the conserved N-terminal "
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence is 197 residues (close to the stated ~199; minor discrepancy but consistent with RecR family length, typically ~195\u2013200 aa).\n- "
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows hallmark features of RecR:\n- Length ~196 residues (close to stated 199, typical RecR size)\n- N-terminal HhH (helix-hairpin-"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence has the hallmarks of RecR:\n- Length is 196 residues (close to the stated ~199; minor discrepancy but consistent with RecR family size).\n- Co"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmark features of RecR:\n\n1. **Length**: 196 residues (close to the stated ~199; minor discrepancy but consistent wit"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has the hallmarks of RecR:\n- Length ~197-199 residues, consistent with bacterial RecR.\n- Contains the conserved N-terminal helix-"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmark features of RecR:\n- Length is 196 residues (close to the stated ~199; typical RecR length).\n- Conserved N-term"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmarks of RecR:\n\n1. **Length**: 196 residues (annotation says 199; close enough that this is likely the correct full"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmarks of the RecR recombination mediator protein:\n\n1. **Length**: The provided sequence is 195 residues, close to t"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has hallmarks of RecR:\n- Length is 196 residues (close to the ~199 stated; minor discrepancy but within typical RecR size for str"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows all hallmark features of RecR:\n\n1. **Length**: 195 residues shown (annotation says 199 \u2014 close, minor discrepancy but withi"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of RecR:\n\n1. **Length**: 196 residues, consistent with bacterial RecR (~199 aa as stated; minor discrepancy but within"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows the hallmark features of RecR:\n\n1. **Length**: 197 residues (annotation says 199 \u2014 close, minor discrepancy but consistent with RecR f"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence shows clear hallmarks of the RecR protein:\n\n1. **Length**: 196 residues (close to the stated ~199; RecR proteins are typically ~195-200 aa)."
+      }
+    ],
+    "counts": {
+      "MATCH": 20
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 20
+  },
+  {
+    "model": "claude-opus-4-7",
+    "id": "LEIME_TIM",
+    "name": "Triosephosphate isomerase (Leishmania mexicana)",
+    "condition": "matched",
+    "ground_truth": "MATCH",
+    "trials": [
+      {
+        "trial": 1,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nThe sequence has clear hallmarks of triosephosphate isomerase (TIM):\n\n1. **Length**: 250 residues, consistent with the stated ~251-residue monomer of try"
+      },
+      {
+        "trial": 2,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows hallmark features of triosephosphate isomerase (TIM):\n\n1. **Length**: 250 residues, consistent with the stated ~251-residue"
+      },
+      {
+        "trial": 3,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (partial).\n\nReasoning: The sequence is clearly a triosephosphate isomerase (TIM). It contains the hallmark TIM signature motif \"AYEPVWAIGTGK\" (the cata"
+      },
+      {
+        "trial": 4,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence has the canonical TIM signature \"AYEPVWAIGTGK\" (PROSITE TIM pattern), strongly identifying it as triosephosphate isomerase.\n- K"
+      },
+      {
+        "trial": 5,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely partial)\n\nReasoning:\n\n1. The sequence is clearly a triosephosphate isomerase (TIM). Hallmark TIM motifs are present:\n   - The N-terminal \"ANWK\""
+      },
+      {
+        "trial": 6,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely \u2014 primarily on residue count) \u2014 though the sequence does appear to be a triosephosphate isomerase.\n\nReasoning:\n- The sequence contains the hall"
+      },
+      {
+        "trial": 7,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence contains hallmark TIM signature motifs: \"AENAIAKSGAFTGEVSMPILKDIG\" region, the catalytic lysine area, and especially the highly"
+      },
+      {
+        "trial": 8,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence shows hallmark TIM signatures: the conserved \"AYEPVW\" motif (containing the catalytic Glu of loop 6) and \"GHSERR\" motif (contai"
+      },
+      {
+        "trial": 9,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely on the species detail, though the function is correct).\n\nReasoning:\n- The sequence shows the hallmark TIM signatures: the AYEPVW motif (contain"
+      },
+      {
+        "trial": 10,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (partial).\n\nReasoning: The sequence is clearly a triosephosphate isomerase (TIM). It contains the hallmark TIM signature motif \"AYEPVWAIGTGK\" and the c"
+      },
+      {
+        "trial": 11,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence is 250 residues long (close to the stated 251; the annotation may count an initiator Met or be slightly off, but this is within"
+      },
+      {
+        "trial": 12,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence shows classic TIM signatures: the conserved \"AENAIAK\" region, the catalytic motif \"HSERR\" (containing the catalytic His and Glu"
+      },
+      {
+        "trial": 13,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmarks of a triosephosphate isomerase (TIM):\n\n1. **Length**: 250 residues, consistent with the ~251-residue trypanos"
+      },
+      {
+        "trial": 14,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely partial)\n\nReasoning:\n- The sequence has clear TIM signatures: the conserved AYEPVWAIGTG motif (containing the catalytic Glu165-equivalent), the"
+      },
+      {
+        "trial": 15,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning:\n- The sequence shows the hallmark TIM signature \"AYEPVWAIGTGK\" which is highly conserved in triosephosphate isomerases.\n- Key catalytic residu"
+      },
+      {
+        "trial": 16,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (partial)\n\nThe sequence is clearly a triosephosphate isomerase (TIM). Key TIM signature motifs are present:\n- The AYEPVW...GTG motif (around position 1"
+      },
+      {
+        "trial": 17,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (partial).\n\nThe sequence is indeed a triosephosphate isomerase (TIM/TPI). Key catalytic residues are recognizable: the catalytic lysine (AKP near N-ter"
+      },
+      {
+        "trial": 18,
+        "stop_reason": "end_turn",
+        "content_verdict": "MISMATCH",
+        "first_160": "MISMATCH (likely partial)\n\nReasoning:\n- The sequence is clearly a triosephosphate isomerase (TIM). It contains the hallmark TIM signature motif \"AYEPVWAIGTGK\" a"
+      },
+      {
+        "trial": 19,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence has hallmarks of a triosephosphate isomerase (TIM):\n\n1. **Length**: 250 residues, consistent with the stated ~251-residue monomer"
+      },
+      {
+        "trial": 20,
+        "stop_reason": "end_turn",
+        "content_verdict": "MATCH",
+        "first_160": "MATCH\n\nReasoning: The sequence shows the hallmark features of a triosephosphate isomerase (TIM):\n\n1. **Length**: The sequence is 248 residues, close to the stat"
+      }
+    ],
+    "counts": {
+      "MATCH": 11,
+      "MISMATCH": 9
+    },
+    "n_refusal_tag": 0,
+    "n_correct": 11
+  }
+]
