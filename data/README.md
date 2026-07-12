@@ -5,6 +5,36 @@ tags: [biology, protein, ai-safety, biosecurity-eval, label-integrity, claude]
 task_categories: [text-classification]
 size_categories: [n<1K]
 pretty_name: Protein Label-Integrity Evaluation (benign specificity)
+configs:
+  - config_name: default
+    data_files:
+      - split: train
+        path: label_integrity_eval.jsonl
+dataset_info:
+  features:
+    - name: variant
+      dtype: string
+    - name: model
+      dtype: string
+    - name: protein_id
+      dtype: string
+    - name: protein_name
+      dtype: string
+    - name: condition
+      dtype: string
+    - name: ground_truth
+      dtype: string
+    - name: trial
+      dtype: int64
+    - name: content_verdict
+      dtype: string
+    - name: stop_reason
+      dtype: string
+    - name: response_prefix
+      dtype: string
+  splits:
+    - name: train
+      num_examples: 640
 ---
 
 # Protein Label-Integrity Evaluation (benign specificity)
@@ -17,8 +47,9 @@ factually-verified annotations**, and is used to measure the false-`MISMATCH`
 rate (specificity), without the toxin/refusal confound of the hazard-detection arm.
 
 The companion hazard-detection arm (sensitivity) is reported only in aggregate in
-the [Evaluation & Model Card](../card/LABEL_INTEGRITY_CARD.md); its raw per-trial
-data is not redistributed (see [../docs/DATA_CARD.md](../docs/DATA_CARD.md)).
+the [Evaluation & Model Card](https://github.com/jang1563/protein-label-integrity-eval/blob/main/card/LABEL_INTEGRITY_CARD.md);
+its raw per-trial data is not redistributed (see the
+[Data Card](https://github.com/jang1563/protein-label-integrity-eval/blob/main/docs/DATA_CARD.md)).
 
 ## Dataset structure
 
@@ -57,9 +88,24 @@ annotation text is public UniProt-style metadata. No hazardous, operational, or
 attack content is present. The only manipulation is the pairing of a sequence with
 an annotation.
 
-Regenerate with [build_dataset.py](build_dataset.py) from the committed result
-files under `../study/results/`.
+The dataset is byte-for-byte reproducible from the committed benign-specificity
+results in the [full GitHub source repository](https://github.com/jang1563/protein-label-integrity-eval):
+
+```bash
+git clone https://github.com/jang1563/protein-label-integrity-eval.git
+cd protein-label-integrity-eval
+python3 data/build_dataset.py
+shasum -a 256 data/label_integrity_eval.jsonl
+```
+
+Expected SHA-256:
+`916ad4ff229b40e7291e54c32f7807a028e22556ad55c39250584b42294e4914`.
+The flattened Hub copy of `build_dataset.py` is retained as provenance and
+intentionally fails closed unless it is run from the full source checkout.
 
 ## Citation
 
-See [../CITATION.cff](../CITATION.cff). (c) 2026 JangKeun Kim, Apache-2.0.
+See [CITATION.cff](https://github.com/jang1563/protein-label-integrity-eval/blob/main/CITATION.cff).
+(c) 2026 JangKeun Kim, Apache-2.0. The Hub release includes the full
+[`LICENSE`](https://github.com/jang1563/protein-label-integrity-eval/blob/main/LICENSE)
+text.
