@@ -9,11 +9,24 @@ import json
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-OUT = Path(__file__).resolve().parent / "label_integrity_eval.jsonl"
+DATA_DIR = Path(__file__).resolve().parent
+if DATA_DIR.name != "data":
+    raise SystemExit(
+        "ERROR: this provenance builder must be run as data/build_dataset.py "
+        "from a full protein-label-integrity-eval source checkout"
+    )
+
+ROOT = DATA_DIR.parent
+OUT = DATA_DIR / "label_integrity_eval.jsonl"
+SOURCE_FILES = sorted((ROOT / "study" / "results").glob("label_integrity_spec*.json"))
+if not SOURCE_FILES:
+    raise SystemExit(
+        "ERROR: no committed benign-specificity result files found under "
+        "study/results; refusing to replace the published dataset"
+    )
 
 rows = []
-for fp in sorted((ROOT / "study" / "results").glob("label_integrity_spec*.json")):
+for fp in SOURCE_FILES:
     variant = fp.stem.replace("label_integrity_", "")  # spec, spec_verbatim, ...
     cells = json.load(open(fp))
     if not isinstance(cells, list):
